@@ -1,14 +1,14 @@
 //
-//  TestTableViewCell.m
+//  SearchMessageCell.m
 //  SegmentControl
 //
 //  Created by 魏志强 on 15/10/15.
 //  Copyright © 2015年 yeelion. All rights reserved.
 //
 
-#import "TestTableViewCell.h"
+#import "SearchMessageCell.h"
 
-@implementation TestTableViewCell
+@implementation SearchMessageCell
 
 - (void)awakeFromNib {
     // Initialization code

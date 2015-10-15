@@ -15,19 +15,20 @@
 		A70AA4151BCC9FA5001C5113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A70AA4131BCC9FA5001C5113 /* LaunchScreen.storyboard */; };
 		A70AA4201BCC9FA5001C5113 /* SegmentControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70AA41F1BCC9FA5001C5113 /* SegmentControlTests.m */; };
 		A70AA42B1BCC9FA5001C5113 /* SegmentControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70AA42A1BCC9FA5001C5113 /* SegmentControlUITests.m */; };
-		A70AA47C1BCCA0EC001C5113 /* MyMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A70AA47B1BCCA0EC001C5113 /* MyMessage.xib */; settings = {ASSET_TAGS = (); }; };
-		A70AA4821BCCA194001C5113 /* MyMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A70AA4811BCCA194001C5113 /* MyMessage.m */; settings = {ASSET_TAGS = (); }; };
-		A79A221A1BCDF35400014C4E /* PrivateMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A79A22191BCDF35400014C4E /* PrivateMessage.m */; settings = {ASSET_TAGS = (); }; };
-		A79A221C1BCDF36E00014C4E /* PrivateMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79A221B1BCDF36E00014C4E /* PrivateMessage.xib */; settings = {ASSET_TAGS = (); }; };
-		A79FE0E51BCE925300DB3E26 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79FE0E31BCE925300DB3E26 /* MessageViewController.m */; settings = {ASSET_TAGS = (); }; };
-		A79FE0E61BCE925300DB3E26 /* MessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79FE0E41BCE925300DB3E26 /* MessageViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		A79FE0E81BCE9DDA00DB3E26 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79FE0E71BCE9DDA00DB3E26 /* ViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		A79FE0EF1BCEB5B300DB3E26 /* TestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A79FE0ED1BCEB5B300DB3E26 /* TestTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
-		A79FE0F01BCEB5B300DB3E26 /* TestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79FE0EE1BCEB5B300DB3E26 /* TestTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
-		A79FE0FF1BCEB8CA00DB3E26 /* SystemMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A79FE0FD1BCEB8CA00DB3E26 /* SystemMessageCell.m */; settings = {ASSET_TAGS = (); }; };
-		A79FE1001BCEB8CA00DB3E26 /* SystemMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79FE0FE1BCEB8CA00DB3E26 /* SystemMessageCell.xib */; settings = {ASSET_TAGS = (); }; };
-		A7C4C1A81BCF93FB00278731 /* SystemMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C4C1A71BCF93FB00278731 /* SystemMessage.m */; settings = {ASSET_TAGS = (); }; };
-		A7C4C1AA1BCF940A00278731 /* SystemMessage.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C4C1A91BCF940A00278731 /* SystemMessage.xib */; settings = {ASSET_TAGS = (); }; };
+		A7A783CD1BCFF8720015BB8C /* ARSegmentPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A783C71BCFF8720015BB8C /* ARSegmentPageController.m */; settings = {ASSET_TAGS = (); }; };
+		A7A783CF1BCFF8720015BB8C /* ARSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A783CC1BCFF8720015BB8C /* ARSegmentView.m */; settings = {ASSET_TAGS = (); }; };
+		A7A783D61BCFF9FA0015BB8C /* SystemMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A783D41BCFF9FA0015BB8C /* SystemMessageTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A7A783D71BCFF9FA0015BB8C /* SystemMessageTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A783D51BCFF9FA0015BB8C /* SystemMessageTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		A7A783DB1BCFFA870015BB8C /* SystemMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A783D91BCFFA870015BB8C /* SystemMessageCell.m */; settings = {ASSET_TAGS = (); }; };
+		A7A783DC1BCFFA870015BB8C /* SystemMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A783DA1BCFFA870015BB8C /* SystemMessageCell.xib */; settings = {ASSET_TAGS = (); }; };
+		A7A783E01BCFFB230015BB8C /* SearchMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A783DE1BCFFB230015BB8C /* SearchMessageTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A7A783E11BCFFB230015BB8C /* SearchMessageTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A783DF1BCFFB230015BB8C /* SearchMessageTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		A7A783E51BCFFB430015BB8C /* SearchMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A783E31BCFFB430015BB8C /* SearchMessageCell.m */; settings = {ASSET_TAGS = (); }; };
+		A7A783E61BCFFB430015BB8C /* SearchMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A783E41BCFFB430015BB8C /* SearchMessageCell.xib */; settings = {ASSET_TAGS = (); }; };
+		A7A783EA1BCFFB6C0015BB8C /* PrivateMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A783E81BCFFB6C0015BB8C /* PrivateMessageCell.m */; settings = {ASSET_TAGS = (); }; };
+		A7A783EB1BCFFB6C0015BB8C /* PrivateMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A783E91BCFFB6C0015BB8C /* PrivateMessageCell.xib */; settings = {ASSET_TAGS = (); }; };
+		A7A783EF1BCFFB8E0015BB8C /* PrivateMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A783ED1BCFFB8E0015BB8C /* PrivateMessageTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A7A783F01BCFFB8E0015BB8C /* PrivateMessageTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A783EE1BCFFB8E0015BB8C /* PrivateMessageTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,26 +65,29 @@
 		A70AA4261BCC9FA5001C5113 /* SegmentControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70AA42A1BCC9FA5001C5113 /* SegmentControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SegmentControlUITests.m; sourceTree = "<group>"; };
 		A70AA42C1BCC9FA5001C5113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A70AA47B1BCCA0EC001C5113 /* MyMessage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyMessage.xib; sourceTree = "<group>"; };
-		A70AA4801BCCA194001C5113 /* MyMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMessage.h; sourceTree = "<group>"; };
-		A70AA4811BCCA194001C5113 /* MyMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMessage.m; sourceTree = "<group>"; };
-		A70AA4831BCCA607001C5113 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		A79A22181BCDF35400014C4E /* PrivateMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateMessage.h; sourceTree = "<group>"; };
-		A79A22191BCDF35400014C4E /* PrivateMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateMessage.m; sourceTree = "<group>"; };
-		A79A221B1BCDF36E00014C4E /* PrivateMessage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivateMessage.xib; sourceTree = "<group>"; };
-		A79FE0E21BCE925300DB3E26 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
-		A79FE0E31BCE925300DB3E26 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
-		A79FE0E41BCE925300DB3E26 /* MessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageViewController.xib; sourceTree = "<group>"; };
-		A79FE0E71BCE9DDA00DB3E26 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		A79FE0EC1BCEB5B300DB3E26 /* TestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewCell.h; sourceTree = "<group>"; };
-		A79FE0ED1BCEB5B300DB3E26 /* TestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewCell.m; sourceTree = "<group>"; };
-		A79FE0EE1BCEB5B300DB3E26 /* TestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestTableViewCell.xib; sourceTree = "<group>"; };
-		A79FE0FC1BCEB8CA00DB3E26 /* SystemMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMessageCell.h; sourceTree = "<group>"; };
-		A79FE0FD1BCEB8CA00DB3E26 /* SystemMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemMessageCell.m; sourceTree = "<group>"; };
-		A79FE0FE1BCEB8CA00DB3E26 /* SystemMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemMessageCell.xib; sourceTree = "<group>"; };
-		A7C4C1A61BCF93FB00278731 /* SystemMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMessage.h; sourceTree = "<group>"; };
-		A7C4C1A71BCF93FB00278731 /* SystemMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemMessage.m; sourceTree = "<group>"; };
-		A7C4C1A91BCF940A00278731 /* SystemMessage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemMessage.xib; sourceTree = "<group>"; };
+		A7A783C51BCFF8710015BB8C /* ARSegmentControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSegmentControllerDelegate.h; sourceTree = "<group>"; };
+		A7A783C61BCFF8720015BB8C /* ARSegmentPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSegmentPageController.h; sourceTree = "<group>"; };
+		A7A783C71BCFF8720015BB8C /* ARSegmentPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSegmentPageController.m; sourceTree = "<group>"; };
+		A7A783CB1BCFF8720015BB8C /* ARSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARSegmentView.h; sourceTree = "<group>"; };
+		A7A783CC1BCFF8720015BB8C /* ARSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARSegmentView.m; sourceTree = "<group>"; };
+		A7A783D31BCFF9FA0015BB8C /* SystemMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMessageTableViewController.h; sourceTree = "<group>"; };
+		A7A783D41BCFF9FA0015BB8C /* SystemMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemMessageTableViewController.m; sourceTree = "<group>"; };
+		A7A783D51BCFF9FA0015BB8C /* SystemMessageTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemMessageTableViewController.xib; sourceTree = "<group>"; };
+		A7A783D81BCFFA870015BB8C /* SystemMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMessageCell.h; sourceTree = "<group>"; };
+		A7A783D91BCFFA870015BB8C /* SystemMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemMessageCell.m; sourceTree = "<group>"; };
+		A7A783DA1BCFFA870015BB8C /* SystemMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemMessageCell.xib; sourceTree = "<group>"; };
+		A7A783DD1BCFFB230015BB8C /* SearchMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchMessageTableViewController.h; sourceTree = "<group>"; };
+		A7A783DE1BCFFB230015BB8C /* SearchMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchMessageTableViewController.m; sourceTree = "<group>"; };
+		A7A783DF1BCFFB230015BB8C /* SearchMessageTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchMessageTableViewController.xib; sourceTree = "<group>"; };
+		A7A783E21BCFFB430015BB8C /* SearchMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchMessageCell.h; sourceTree = "<group>"; };
+		A7A783E31BCFFB430015BB8C /* SearchMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchMessageCell.m; sourceTree = "<group>"; };
+		A7A783E41BCFFB430015BB8C /* SearchMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchMessageCell.xib; sourceTree = "<group>"; };
+		A7A783E71BCFFB6C0015BB8C /* PrivateMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateMessageCell.h; sourceTree = "<group>"; };
+		A7A783E81BCFFB6C0015BB8C /* PrivateMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateMessageCell.m; sourceTree = "<group>"; };
+		A7A783E91BCFFB6C0015BB8C /* PrivateMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivateMessageCell.xib; sourceTree = "<group>"; };
+		A7A783EC1BCFFB8E0015BB8C /* PrivateMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateMessageTableViewController.h; sourceTree = "<group>"; };
+		A7A783ED1BCFFB8E0015BB8C /* PrivateMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateMessageTableViewController.m; sourceTree = "<group>"; };
+		A7A783EE1BCFFB8E0015BB8C /* PrivateMessageTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivateMessageTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,35 +138,19 @@
 		A70AA4041BCC9FA5001C5113 /* SegmentControl */ = {
 			isa = PBXGroup;
 			children = (
+				A7A783D01BCFF9C00015BB8C /* PrivateMessage */,
+				A7A783D11BCFF9C00015BB8C /* SearchMessage */,
+				A7A783D21BCFF9C00015BB8C /* SystemMessage */,
+				A7A783C41BCFF8710015BB8C /* ARSegmentPageController */,
 				A70AA4081BCC9FA5001C5113 /* AppDelegate.h */,
 				A70AA4091BCC9FA5001C5113 /* AppDelegate.m */,
 				A70AA40B1BCC9FA5001C5113 /* ViewController.h */,
 				A70AA40C1BCC9FA5001C5113 /* ViewController.m */,
-				A79FE0E71BCE9DDA00DB3E26 /* ViewController.xib */,
 				A70AA40E1BCC9FA5001C5113 /* Main.storyboard */,
 				A70AA4111BCC9FA5001C5113 /* Assets.xcassets */,
 				A70AA4131BCC9FA5001C5113 /* LaunchScreen.storyboard */,
 				A70AA4161BCC9FA5001C5113 /* Info.plist */,
 				A70AA4051BCC9FA5001C5113 /* Supporting Files */,
-				A79FE0E21BCE925300DB3E26 /* MessageViewController.h */,
-				A79FE0E31BCE925300DB3E26 /* MessageViewController.m */,
-				A79FE0E41BCE925300DB3E26 /* MessageViewController.xib */,
-				A7C4C1A61BCF93FB00278731 /* SystemMessage.h */,
-				A7C4C1A71BCF93FB00278731 /* SystemMessage.m */,
-				A7C4C1A91BCF940A00278731 /* SystemMessage.xib */,
-				A79FE0FC1BCEB8CA00DB3E26 /* SystemMessageCell.h */,
-				A79FE0FD1BCEB8CA00DB3E26 /* SystemMessageCell.m */,
-				A79FE0FE1BCEB8CA00DB3E26 /* SystemMessageCell.xib */,
-				A70AA4801BCCA194001C5113 /* MyMessage.h */,
-				A70AA4811BCCA194001C5113 /* MyMessage.m */,
-				A70AA47B1BCCA0EC001C5113 /* MyMessage.xib */,
-				A79A221B1BCDF36E00014C4E /* PrivateMessage.xib */,
-				A79A22181BCDF35400014C4E /* PrivateMessage.h */,
-				A79A22191BCDF35400014C4E /* PrivateMessage.m */,
-				A70AA4831BCCA607001C5113 /* Common.h */,
-				A79FE0EC1BCEB5B300DB3E26 /* TestTableViewCell.h */,
-				A79FE0ED1BCEB5B300DB3E26 /* TestTableViewCell.m */,
-				A79FE0EE1BCEB5B300DB3E26 /* TestTableViewCell.xib */,
 			);
 			path = SegmentControl;
 			sourceTree = "<group>";
@@ -191,6 +179,57 @@
 				A70AA42C1BCC9FA5001C5113 /* Info.plist */,
 			);
 			path = SegmentControlUITests;
+			sourceTree = "<group>";
+		};
+		A7A783C41BCFF8710015BB8C /* ARSegmentPageController */ = {
+			isa = PBXGroup;
+			children = (
+				A7A783C51BCFF8710015BB8C /* ARSegmentControllerDelegate.h */,
+				A7A783C61BCFF8720015BB8C /* ARSegmentPageController.h */,
+				A7A783C71BCFF8720015BB8C /* ARSegmentPageController.m */,
+				A7A783CB1BCFF8720015BB8C /* ARSegmentView.h */,
+				A7A783CC1BCFF8720015BB8C /* ARSegmentView.m */,
+			);
+			path = ARSegmentPageController;
+			sourceTree = "<group>";
+		};
+		A7A783D01BCFF9C00015BB8C /* PrivateMessage */ = {
+			isa = PBXGroup;
+			children = (
+				A7A783EC1BCFFB8E0015BB8C /* PrivateMessageTableViewController.h */,
+				A7A783ED1BCFFB8E0015BB8C /* PrivateMessageTableViewController.m */,
+				A7A783EE1BCFFB8E0015BB8C /* PrivateMessageTableViewController.xib */,
+				A7A783E71BCFFB6C0015BB8C /* PrivateMessageCell.h */,
+				A7A783E81BCFFB6C0015BB8C /* PrivateMessageCell.m */,
+				A7A783E91BCFFB6C0015BB8C /* PrivateMessageCell.xib */,
+			);
+			path = PrivateMessage;
+			sourceTree = "<group>";
+		};
+		A7A783D11BCFF9C00015BB8C /* SearchMessage */ = {
+			isa = PBXGroup;
+			children = (
+				A7A783DD1BCFFB230015BB8C /* SearchMessageTableViewController.h */,
+				A7A783DE1BCFFB230015BB8C /* SearchMessageTableViewController.m */,
+				A7A783DF1BCFFB230015BB8C /* SearchMessageTableViewController.xib */,
+				A7A783E21BCFFB430015BB8C /* SearchMessageCell.h */,
+				A7A783E31BCFFB430015BB8C /* SearchMessageCell.m */,
+				A7A783E41BCFFB430015BB8C /* SearchMessageCell.xib */,
+			);
+			path = SearchMessage;
+			sourceTree = "<group>";
+		};
+		A7A783D21BCFF9C00015BB8C /* SystemMessage */ = {
+			isa = PBXGroup;
+			children = (
+				A7A783D31BCFF9FA0015BB8C /* SystemMessageTableViewController.h */,
+				A7A783D41BCFF9FA0015BB8C /* SystemMessageTableViewController.m */,
+				A7A783D51BCFF9FA0015BB8C /* SystemMessageTableViewController.xib */,
+				A7A783D81BCFFA870015BB8C /* SystemMessageCell.h */,
+				A7A783D91BCFFA870015BB8C /* SystemMessageCell.m */,
+				A7A783DA1BCFFA870015BB8C /* SystemMessageCell.xib */,
+			);
+			path = SystemMessage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,16 +335,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79FE1001BCEB8CA00DB3E26 /* SystemMessageCell.xib in Resources */,
-				A7C4C1AA1BCF940A00278731 /* SystemMessage.xib in Resources */,
-				A79FE0E81BCE9DDA00DB3E26 /* ViewController.xib in Resources */,
-				A79FE0F01BCEB5B300DB3E26 /* TestTableViewCell.xib in Resources */,
-				A79A221C1BCDF36E00014C4E /* PrivateMessage.xib in Resources */,
+				A7A783E61BCFFB430015BB8C /* SearchMessageCell.xib in Resources */,
 				A70AA4151BCC9FA5001C5113 /* LaunchScreen.storyboard in Resources */,
+				A7A783E11BCFFB230015BB8C /* SearchMessageTableViewController.xib in Resources */,
+				A7A783DC1BCFFA870015BB8C /* SystemMessageCell.xib in Resources */,
 				A70AA4121BCC9FA5001C5113 /* Assets.xcassets in Resources */,
+				A7A783D71BCFF9FA0015BB8C /* SystemMessageTableViewController.xib in Resources */,
 				A70AA4101BCC9FA5001C5113 /* Main.storyboard in Resources */,
-				A79FE0E61BCE925300DB3E26 /* MessageViewController.xib in Resources */,
-				A70AA47C1BCCA0EC001C5113 /* MyMessage.xib in Resources */,
+				A7A783F01BCFFB8E0015BB8C /* PrivateMessageTableViewController.xib in Resources */,
+				A7A783EB1BCFFB6C0015BB8C /* PrivateMessageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,15 +368,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79FE0FF1BCEB8CA00DB3E26 /* SystemMessageCell.m in Sources */,
-				A79A221A1BCDF35400014C4E /* PrivateMessage.m in Sources */,
+				A7A783DB1BCFFA870015BB8C /* SystemMessageCell.m in Sources */,
 				A70AA40D1BCC9FA5001C5113 /* ViewController.m in Sources */,
+				A7A783CF1BCFF8720015BB8C /* ARSegmentView.m in Sources */,
+				A7A783E51BCFFB430015BB8C /* SearchMessageCell.m in Sources */,
 				A70AA40A1BCC9FA5001C5113 /* AppDelegate.m in Sources */,
-				A70AA4821BCCA194001C5113 /* MyMessage.m in Sources */,
-				A7C4C1A81BCF93FB00278731 /* SystemMessage.m in Sources */,
 				A70AA4071BCC9FA5001C5113 /* main.m in Sources */,
-				A79FE0EF1BCEB5B300DB3E26 /* TestTableViewCell.m in Sources */,
-				A79FE0E51BCE925300DB3E26 /* MessageViewController.m in Sources */,
+				A7A783E01BCFFB230015BB8C /* SearchMessageTableViewController.m in Sources */,
+				A7A783CD1BCFF8720015BB8C /* ARSegmentPageController.m in Sources */,
+				A7A783D61BCFF9FA0015BB8C /* SystemMessageTableViewController.m in Sources */,
+				A7A783EF1BCFFB8E0015BB8C /* PrivateMessageTableViewController.m in Sources */,
+				A7A783EA1BCFFB6C0015BB8C /* PrivateMessageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  TestTableViewCell.h
+//  SystemMessageCell.h
 //  SegmentControl
 //
 //  Created by 魏志强 on 15/10/15.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestTableViewCell : UITableViewCell
-@property (weak, nonatomic) IBOutlet UIButton *button;
+@interface SystemMessageCell : UITableViewCell
 
 @end

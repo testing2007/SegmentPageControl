@@ -1,5 +1,5 @@
 //
-//  SystemMessage.h
+//  SearchMessageCell.h
 //  SegmentControl
 //
 //  Created by 魏志强 on 15/10/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SystemMessage : UITableView
+@interface SearchMessageCell : UITableViewCell
 
 @end

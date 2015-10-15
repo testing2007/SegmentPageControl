@@ -7,23 +7,40 @@
 //
 
 #import "ViewController.h"
-#import "MessageViewController.h"
+#import "SystemMessage/SystemMessageTableViewController.h"
+#import "SearchMessage/SearchMessageTableViewController.h"
+#import "PrivateMessage/PrivateMessageTableViewController.h"
+#import "ARSegmentPageController.h"
 
 @interface ViewController ()
-//@property (nonatomic, retain) MessageViewController* mvc;
+@property (nonatomic, retain) ARSegmentPageController* msgCtl;
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
+-(void)readyForLoadMessage
+{
+    SystemMessageTableViewController *sysMsg = [[SystemMessageTableViewController alloc] initWithNibName:@"SystemMessageTableViewController" bundle:[NSBundle mainBundle]];
+    SearchMessageTableViewController *srhMsg = [[SearchMessageTableViewController alloc] initWithNibName:@"SearchMessageTableViewController" bundle:[NSBundle mainBundle]];
+    PrivateMessageTableViewController *priMsg = [[PrivateMessageTableViewController alloc] initWithNibName:@"PrivateMessageTableViewController" bundle:[NSBundle mainBundle]];
+    ARSegmentPageController *msgCtl = [[ARSegmentPageController alloc]init];
+    [msgCtl setViewControllers:@[sysMsg, srhMsg, priMsg]];
+    self.msgCtl = msgCtl;
+}
+
+-(void)loadView
+{
+    [super loadView];
     self.view.backgroundColor = [UIColor whiteColor];
+    [self readyForLoadMessage];
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+//
 
     // Do any additional setup after loading the view, typically from a nib.
-//    _mvc = [MessageViewController viewControllerFromNIB];
-//    
-//    [Navi]
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,11 +49,7 @@
 }
 
 - (IBAction)onEnterMessageViewController:(id)sender {
-    MessageViewController* msg =  [[MessageViewController alloc]init];
-    [self.navigationController pushViewController:msg animated:YES];
-//    [self.navigationController pushViewController:[MessageViewController viewControllerFromNIB] animated:YES];
+    [self.navigationController pushViewController:_msgCtl animated:YES];
 }
-
-
 
 @end
