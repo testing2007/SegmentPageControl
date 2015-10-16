@@ -7,6 +7,7 @@
 //
 
 #import "SystemMessageTableViewController.h"
+#import "SystemMessageCell.h"
 
 @interface SystemMessageTableViewController ()
 
@@ -17,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"SystemMessageCell"];
+    UINib *nib=[UINib nibWithNibName:@"SystemMessageCell" bundle:nil];
+    [self.tableView registerNib:nib forCellReuseIdentifier:@"SystemMessageCell"];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -55,10 +57,11 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SystemMessageCell" forIndexPath:indexPath];
+    SystemMessageCell *cell = (SystemMessageCell*)[tableView dequeueReusableCellWithIdentifier:@"SystemMessageCell" forIndexPath:indexPath];
     
     // Configure the cell...
-    cell.textLabel.text = @"systemMessage";
+//    cell.textLabel.text = @"systemMessage";
+    cell.systemLabel.text = @"testSystem";
     
     return cell;
 }

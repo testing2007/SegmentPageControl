@@ -1,26 +1,32 @@
 //
-//  PrivateMessageTableViewController.m
+//  PersonalTableViewController.m
 //  SegmentControl
 //
-//  Created by 魏志强 on 15/10/15.
+//  Created by 魏志强 on 15/10/16.
 //  Copyright © 2015年 yeelion. All rights reserved.
 //
 
-#import "PrivateMessageTableViewController.h"
-#import "PrivateMessageCell.h"
+#import "PersonalTableViewController.h"
+#import "PersonalHeadCell.h"
+#import "PersonalMessageCell.h"
 
-@interface PrivateMessageTableViewController ()
+@interface PersonalTableViewController ()
 
 @end
 
-@implementation PrivateMessageTableViewController
+@implementation PersonalTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    UINib *nib=[UINib nibWithNibName:@"PrivateMessageCell" bundle:nil];
-    [self.tableView registerNib:nib forCellReuseIdentifier:@"PrivateMessageCell"];
-
+    self.view.backgroundColor = [UIColor blackColor];
+    self.edgesForExtendedLayout = NO;
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.extendedLayoutIncludesOpaqueBars = NO;
+    
+    UINib *nib=[UINib nibWithNibName:@"PersonalHeadCell" bundle:nil];
+    [self.tableView registerNib:nib forCellReuseIdentifier:@"PersonalHeadCell"];
+    nib=[UINib nibWithNibName:@"PersonalMessageCell" bundle:nil];
+    [self.tableView registerNib:nib forCellReuseIdentifier:@"PersonalMessageCell"];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -37,33 +43,67 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 1;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 10;
-}
-
-#pragma ARSegmetnControllerDelegate
--(NSString *)segmentTitle
-{
-    return @"私信";
-}
-
--(UIScrollView *)streachScrollView
-{
-    return self.tableView;
+    int nRows = 0;
+    switch (section) {
+        case 0:
+            nRows = 1;
+            break;
+        case 1:
+            nRows = 10;
+            break;
+        default:
+            break;
+    }
+    return nRows;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    PrivateMessageCell *cell = (PrivateMessageCell*)[tableView dequeueReusableCellWithIdentifier:@"PrivateMessageCell" forIndexPath:indexPath];
     
-    // Configure the cell...
-    cell.textLabel.text = @"privateMessage";
-    
+    UITableViewCell* cell = nil;
+    switch (indexPath.section) {
+        case 0:
+        {
+            PersonalHeadCell *headCell = [tableView dequeueReusableCellWithIdentifier:@"PersonalHeadCell" forIndexPath:indexPath];
+            headCell.nickNameLabel.text = @"大力王";
+            cell = headCell;
+        }
+            break;
+        case 1:
+        {
+            PersonalMessageCell* msgCell = [tableView dequeueReusableCellWithIdentifier:@"PersonalMessageCell" forIndexPath:indexPath];
+            msgCell.dateLabel.text = @"今 天";
+            cell = msgCell;
+        }
+            break;
+        default:
+            break;
+    }
     return cell;
 }
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    CGFloat retHeight = 0.0f;
+    switch(indexPath.section)
+    {
+        case 0:
+            retHeight = 200.0f;
+            break;
+        case 1:
+            retHeight = 100.0f;
+            break;
+        default:
+            break;
+    }
+    return retHeight;
+}
+
+
 
 /*
 // Override to support conditional editing of the table view.

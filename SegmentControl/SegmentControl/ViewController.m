@@ -12,6 +12,8 @@
 #import "PrivateMessage/PrivateMessageTableViewController.h"
 #import "ARSegmentPageController.h"
 
+#import "PersonalTableViewController.h"
+
 @interface ViewController ()
 @property (nonatomic, retain) ARSegmentPageController* msgCtl;
 @end
@@ -38,8 +40,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//
-
+//    [self readyForLoadMessage];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -50,6 +51,11 @@
 
 - (IBAction)onEnterMessageViewController:(id)sender {
     [self.navigationController pushViewController:_msgCtl animated:YES];
+}
+
+- (IBAction)onEnterPersonalMsg:(id)sender {
+    PersonalTableViewController *personal = [[PersonalTableViewController alloc]initWithNibName:@"PersonalTableViewController" bundle:[NSBundle mainBundle]];
+    [self.navigationController pushViewController:personal animated:YES];
 }
 
 @end

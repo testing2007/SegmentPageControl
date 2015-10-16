@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PersonalTableViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PersonalHeadCell" id="KGk-i7-Jjw" customClass="PersonalHeadCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hy5-Q7-4U6" userLabel="album cover Image View">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="199.5"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vY3-Rt-ayi" userLabel="portrait Image View">
+                        <rect key="frame" x="245" y="124" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="XmM-bp-rtR"/>
+                            <constraint firstAttribute="height" constant="75" id="ti4-RV-uz0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MH0-S0-eW0" userLabel="nickname label">
+                        <rect key="frame" x="195" y="151" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="vY3-Rt-ayi" firstAttribute="bottom" secondItem="Hy5-Q7-4U6" secondAttribute="bottom" id="6p7-0H-PBy"/>
+                    <constraint firstItem="vY3-Rt-ayi" firstAttribute="trailing" secondItem="Hy5-Q7-4U6" secondAttribute="trailing" id="Hc2-Bg-Eih"/>
+                    <constraint firstAttribute="trailing" secondItem="Hy5-Q7-4U6" secondAttribute="trailing" id="IM4-gv-D6T"/>
+                    <constraint firstItem="Hy5-Q7-4U6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="L6j-Lv-cVO"/>
+                    <constraint firstAttribute="bottom" secondItem="Hy5-Q7-4U6" secondAttribute="bottom" id="LhN-SJ-oSQ"/>
+                    <constraint firstItem="MH0-S0-eW0" firstAttribute="centerY" secondItem="vY3-Rt-ayi" secondAttribute="centerY" id="Pvp-Jc-Lrb"/>
+                    <constraint firstItem="vY3-Rt-ayi" firstAttribute="leading" secondItem="MH0-S0-eW0" secondAttribute="trailing" constant="8" id="VVH-ZP-YdA"/>
+                    <constraint firstItem="Hy5-Q7-4U6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kcm-GV-gSk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="albumCoverImageView" destination="Hy5-Q7-4U6" id="O6q-tU-Uwy"/>
+                <outlet property="nickNameLabel" destination="MH0-S0-eW0" id="eAS-mM-ZdW"/>
+                <outlet property="portraitImageView" destination="vY3-Rt-ayi" id="gcA-LW-6gg"/>
+            </connections>
+            <point key="canvasLocation" x="135" y="172"/>
+        </tableViewCell>
+    </objects>
+</document>

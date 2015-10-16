@@ -18,11 +18,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60D-8e-k7c">
-                                <rect key="frame" x="72" y="100" width="62" height="30"/>
-                                <color key="backgroundColor" red="0.95686274510000002" green="0.29787853800000003" blue="0.46554520469999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Message"/>
+                                <rect key="frame" x="53" y="97" width="92" height="30"/>
+                                <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Message">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="onEnterMessageViewController:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nT0-fC-pkA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mbv-Aw-hUY">
+                                <rect key="frame" x="53" y="170" width="93" height="30"/>
+                                <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Personal Msg">
+                                    <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onEnterPersonalMsg:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S4k-Vw-bGh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -33,7 +45,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11" y="-96"/>
+            <point key="canvasLocation" x="78" y="-189"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hLZ-u4-HiJ">

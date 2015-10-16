@@ -7,6 +7,7 @@
 //
 
 #import "SearchMessageTableViewController.h"
+#import "SearchMessageCell.h"
 
 @interface SearchMessageTableViewController ()
 
@@ -16,8 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"SearchMessageCell"];
+
+    UINib *nib=[UINib nibWithNibName:@"SearchMessageCell" bundle:nil];
+    [self.tableView registerNib:nib forCellReuseIdentifier:@"SearchMessageCell"];
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -55,7 +57,7 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"SearchMessageCell" forIndexPath:indexPath];
+    SearchMessageCell *cell = (SearchMessageCell*)[tableView dequeueReusableCellWithIdentifier:@"SearchMessageCell" forIndexPath:indexPath];
     
     // Configure the cell...
     cell.textLabel.text = @"searchMessage";

@@ -29,6 +29,12 @@
 		A7A783EB1BCFFB6C0015BB8C /* PrivateMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A783E91BCFFB6C0015BB8C /* PrivateMessageCell.xib */; settings = {ASSET_TAGS = (); }; };
 		A7A783EF1BCFFB8E0015BB8C /* PrivateMessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A783ED1BCFFB8E0015BB8C /* PrivateMessageTableViewController.m */; settings = {ASSET_TAGS = (); }; };
 		A7A783F01BCFFB8E0015BB8C /* PrivateMessageTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7A783EE1BCFFB8E0015BB8C /* PrivateMessageTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		A7EC8FD81BD11FDB00337231 /* PersonalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EC8FD61BD11FDB00337231 /* PersonalTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		A7EC8FD91BD11FDB00337231 /* PersonalTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7EC8FD71BD11FDB00337231 /* PersonalTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		A7EC8FE21BD120EC00337231 /* PersonalMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EC8FE01BD120EC00337231 /* PersonalMessageCell.m */; settings = {ASSET_TAGS = (); }; };
+		A7EC8FE31BD120EC00337231 /* PersonalMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7EC8FE11BD120EC00337231 /* PersonalMessageCell.xib */; settings = {ASSET_TAGS = (); }; };
+		A7EC8FE71BD1211800337231 /* PersonalHeadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A7EC8FE51BD1211800337231 /* PersonalHeadCell.m */; settings = {ASSET_TAGS = (); }; };
+		A7EC8FE81BD1211800337231 /* PersonalHeadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7EC8FE61BD1211800337231 /* PersonalHeadCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +94,15 @@
 		A7A783EC1BCFFB8E0015BB8C /* PrivateMessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateMessageTableViewController.h; sourceTree = "<group>"; };
 		A7A783ED1BCFFB8E0015BB8C /* PrivateMessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateMessageTableViewController.m; sourceTree = "<group>"; };
 		A7A783EE1BCFFB8E0015BB8C /* PrivateMessageTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrivateMessageTableViewController.xib; sourceTree = "<group>"; };
+		A7EC8FD51BD11FDB00337231 /* PersonalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalTableViewController.h; sourceTree = "<group>"; };
+		A7EC8FD61BD11FDB00337231 /* PersonalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalTableViewController.m; sourceTree = "<group>"; };
+		A7EC8FD71BD11FDB00337231 /* PersonalTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalTableViewController.xib; sourceTree = "<group>"; };
+		A7EC8FDF1BD120EC00337231 /* PersonalMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalMessageCell.h; sourceTree = "<group>"; };
+		A7EC8FE01BD120EC00337231 /* PersonalMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalMessageCell.m; sourceTree = "<group>"; };
+		A7EC8FE11BD120EC00337231 /* PersonalMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalMessageCell.xib; sourceTree = "<group>"; };
+		A7EC8FE41BD1211800337231 /* PersonalHeadCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalHeadCell.h; sourceTree = "<group>"; };
+		A7EC8FE51BD1211800337231 /* PersonalHeadCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalHeadCell.m; sourceTree = "<group>"; };
+		A7EC8FE61BD1211800337231 /* PersonalHeadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalHeadCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +153,7 @@
 		A70AA4041BCC9FA5001C5113 /* SegmentControl */ = {
 			isa = PBXGroup;
 			children = (
+				A7EC8FD41BD11F8C00337231 /* PersonalMessage */,
 				A7A783D01BCFF9C00015BB8C /* PrivateMessage */,
 				A7A783D11BCFF9C00015BB8C /* SearchMessage */,
 				A7A783D21BCFF9C00015BB8C /* SystemMessage */,
@@ -230,6 +246,22 @@
 				A7A783DA1BCFFA870015BB8C /* SystemMessageCell.xib */,
 			);
 			path = SystemMessage;
+			sourceTree = "<group>";
+		};
+		A7EC8FD41BD11F8C00337231 /* PersonalMessage */ = {
+			isa = PBXGroup;
+			children = (
+				A7EC8FD51BD11FDB00337231 /* PersonalTableViewController.h */,
+				A7EC8FD61BD11FDB00337231 /* PersonalTableViewController.m */,
+				A7EC8FD71BD11FDB00337231 /* PersonalTableViewController.xib */,
+				A7EC8FE41BD1211800337231 /* PersonalHeadCell.h */,
+				A7EC8FE51BD1211800337231 /* PersonalHeadCell.m */,
+				A7EC8FE61BD1211800337231 /* PersonalHeadCell.xib */,
+				A7EC8FDF1BD120EC00337231 /* PersonalMessageCell.h */,
+				A7EC8FE01BD120EC00337231 /* PersonalMessageCell.m */,
+				A7EC8FE11BD120EC00337231 /* PersonalMessageCell.xib */,
+			);
+			path = PersonalMessage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -336,14 +368,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7A783E61BCFFB430015BB8C /* SearchMessageCell.xib in Resources */,
+				A7EC8FE31BD120EC00337231 /* PersonalMessageCell.xib in Resources */,
 				A70AA4151BCC9FA5001C5113 /* LaunchScreen.storyboard in Resources */,
 				A7A783E11BCFFB230015BB8C /* SearchMessageTableViewController.xib in Resources */,
+				A7EC8FD91BD11FDB00337231 /* PersonalTableViewController.xib in Resources */,
 				A7A783DC1BCFFA870015BB8C /* SystemMessageCell.xib in Resources */,
 				A70AA4121BCC9FA5001C5113 /* Assets.xcassets in Resources */,
 				A7A783D71BCFF9FA0015BB8C /* SystemMessageTableViewController.xib in Resources */,
 				A70AA4101BCC9FA5001C5113 /* Main.storyboard in Resources */,
 				A7A783F01BCFFB8E0015BB8C /* PrivateMessageTableViewController.xib in Resources */,
 				A7A783EB1BCFFB6C0015BB8C /* PrivateMessageCell.xib in Resources */,
+				A7EC8FE81BD1211800337231 /* PersonalHeadCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,14 +406,17 @@
 				A7A783DB1BCFFA870015BB8C /* SystemMessageCell.m in Sources */,
 				A70AA40D1BCC9FA5001C5113 /* ViewController.m in Sources */,
 				A7A783CF1BCFF8720015BB8C /* ARSegmentView.m in Sources */,
+				A7EC8FE71BD1211800337231 /* PersonalHeadCell.m in Sources */,
 				A7A783E51BCFFB430015BB8C /* SearchMessageCell.m in Sources */,
 				A70AA40A1BCC9FA5001C5113 /* AppDelegate.m in Sources */,
 				A70AA4071BCC9FA5001C5113 /* main.m in Sources */,
 				A7A783E01BCFFB230015BB8C /* SearchMessageTableViewController.m in Sources */,
 				A7A783CD1BCFF8720015BB8C /* ARSegmentPageController.m in Sources */,
+				A7EC8FE21BD120EC00337231 /* PersonalMessageCell.m in Sources */,
 				A7A783D61BCFF9FA0015BB8C /* SystemMessageTableViewController.m in Sources */,
 				A7A783EF1BCFFB8E0015BB8C /* PrivateMessageTableViewController.m in Sources */,
 				A7A783EA1BCFFB6C0015BB8C /* PrivateMessageCell.m in Sources */,
+				A7EC8FD81BD11FDB00337231 /* PersonalTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
